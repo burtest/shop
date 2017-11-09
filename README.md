@@ -2,10 +2,10 @@
 
 
 
-## Информация п оустановке	
-- 
--
--
+## Информация по установке	
+- git clone https://github.com/burtest/shop.git
+- создать базу car
+- импортировать файл shop.sql в базу car
 
 [![Shop Item Preview](https://startbootstrap.com/assets/img/templates/shop-item.jpg)](https://blackrockdigital.github.io/startbootstrap-shop-item/)
 
