@@ -7,3 +7,9 @@
 - создать базу car
 - импортировать файл shop.sql в базу car
 
+
+gitg
+git
+gggg
+hghg
+hghg
