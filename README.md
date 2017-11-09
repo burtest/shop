@@ -1,8 +1,11 @@
-# [Start Bootstrap - Shop Item](https://startbootstrap.com/template-overviews/shop-item/)
+# Shop
 
-[Shop Item](http://startbootstrap.com/template-overviews/shop-item/) is a basic HTML store item template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## Preview
+
+## Информация п оустановке	
+- 
+-
+-
 
 [![Shop Item Preview](https://startbootstrap.com/assets/img/templates/shop-item.jpg)](https://blackrockdigital.github.io/startbootstrap-shop-item/)
 
@@ -10,11 +13,7 @@
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-shop-item/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-shop-item.svg)](https://www.npmjs.com/package/startbootstrap-shop-item)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-shop-item.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-shop-item)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-shop-item/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-shop-item)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-shop-item/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-shop-item?type=dev)
+
 
 ## Download and Installation
 
