@@ -16,6 +16,7 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/cabinet.js"></script>
+    <script src="js/main.js"></script>
 	
 
   </body>

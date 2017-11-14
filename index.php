@@ -19,7 +19,7 @@ $adr =mysqli_query($db_con, $query);
 		            <div class="list-group">
 		  <?foreach($arr as $key=>$value){?>
 
-            <a href="catalog.php?id=<?=$tbl_catalog['name']?>"class="list-group-item active"><?=$value;?>
+            <a style="margin-bottom:5px;" href="catalog.php?id=<?=$tbl_catalog['name']?>"class="list-group-item active"><?=$value;?>
 			
 			</a>
 			<?}?>
