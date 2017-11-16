@@ -17,8 +17,16 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/cabinet.js"></script>
     <script src="js/main.js"></script>
-	
-
+    <script src="js/cartinka.js"></script>
+	<?
+	if(!empty($scripts)){
+		foreach($scripts as $script){
+	?>
+			<script src="<?=$script?>"></script>
+<?	
+		}	
+	}
+?>
   </body>
 
 </html>

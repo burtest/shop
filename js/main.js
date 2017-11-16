@@ -3,7 +3,7 @@
 		'mouseover': function(){
 			var body =$(this).attr('data-body');
 			var color =$(this).attr('data-color');
-			console.log(body);
+			
 			$('#title').text(body).css('color','red');
 			
 			
@@ -23,6 +23,24 @@
 			 if($('.window').length==0){
 			var fon= $('<div>').addClass('fon').appendTo('body');
 			var model= $('<div>').addClass('window').appendTo('body');
+
+				var url= $(this).attr('href');
+				$.ajax({
+					url:'ajax.php',
+					type:'post',
+					data:'url='+url,
+					success:function(data){
+						
+						model.append(data);
+					},
+					error:function(msg){
+						model.append(msg);
+					
+					}
+				})
+				
+				
+
 			
 			
 			 }

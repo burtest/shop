@@ -16,15 +16,19 @@ $adr =mysqli_query($db_con, $query);
 ?>
         <div class="col-lg-3">
            <h1 class="my-4">Shop Name</h1> 
-		            <div class="list-group">
+		            <div class="list-group" >
 		  <?foreach($arr as $key=>$value){?>
 
             <a style="margin-bottom:5px;" href="catalog.php?id=<?=$tbl_catalog['name']?>"class="list-group-item active"><?=$value;?>
 			
 			</a>
 			<?}?>
-			
-            
+			<div id="osnova">
+			<p id="st1" >ggggggggg</p>
+			<p id="st2" >ggggggggg</p>
+			<p id="st3" >ggggggggg</p>
+			<p id="st4" >ggggggggg</p>
+            </div>
 
 		  
 		            </div>
@@ -35,7 +39,7 @@ $adr =mysqli_query($db_con, $query);
         <div class="col-lg-9">
 
           <div class="card mt-4">
-            <img class="card-img-top img-fluid" src="images/Chevrolet-Camaro-ZL1.png" alt="">
+            <img class="card-img-top img-fluid" id="picture" src="images/Chevrolet-Camaro-ZL1.png" alt="">
             <div class="card-body">
               <h3 class="card-title">Chevrolet Camaro ZL1</h3>
               <h4>$61,000</h4>
